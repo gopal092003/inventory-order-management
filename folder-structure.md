@@ -1,3 +1,4 @@
+```
 inventory-order-management/
 │
 ├── README.md
@@ -170,3 +171,4 @@ inventory-order-management/
 └── .github/
     └── workflows/
         └── ci.yml
+```
