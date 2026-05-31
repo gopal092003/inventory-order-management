@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 
+import Modal from "./Modal";
+
 
 const ConfirmDialog = ({
   isOpen,
