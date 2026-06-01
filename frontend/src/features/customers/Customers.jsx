@@ -62,7 +62,7 @@ const Customers = () => {
   const filteredCustomers =
     useMemo(() => {
       return searchByFields(
-        customers,
+        customers || [],
         search,
         [
           "full_name",
