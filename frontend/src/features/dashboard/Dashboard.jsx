@@ -51,6 +51,14 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-page">
+
+      <div className="dashboard-banner">
+        <img
+          src={dashboardBanner}
+          alt="Inventory Dashboard"
+        />
+      </div>
+
       <StatsCards
         stats={
           dashboard.stats
