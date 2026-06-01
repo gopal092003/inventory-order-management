@@ -1,7 +1,8 @@
+import { forwardRef } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-const Input = ({
+const Input = forwardRef(({
   label,
   name,
   type = "text",
@@ -16,7 +17,7 @@ const Input = ({
   fullWidth = true,
   className,
   ...props
-}) => {
+}, ref) => {
   return (
     <div
       className={clsx(
@@ -43,6 +44,7 @@ const Input = ({
       )}
 
       <input
+        ref={ref}
         id={name}
         name={name}
         type={type}
@@ -75,7 +77,9 @@ const Input = ({
       )}
     </div>
   );
-};
+});
+
+Input.displayName = "Input";
 
 Input.propTypes = {
   label: PropTypes.string,
