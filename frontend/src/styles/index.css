@@ -586,6 +586,22 @@ textarea {
   padding: 1.25rem;
 }
 
+.dashboard-banner {
+  margin-bottom: 1.5rem;
+
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  overflow: hidden;
+}
+
+.dashboard-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ==========================================
    RECENT ORDERS
 ========================================== */
