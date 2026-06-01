@@ -103,16 +103,8 @@ textarea {
 .sidebar-logo {
   width: 42px;
   height: 42px;
-
-  border-radius: 12px;
-
-  background: #2563eb;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: 700;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .sidebar-nav {
