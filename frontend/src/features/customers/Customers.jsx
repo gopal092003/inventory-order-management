@@ -183,7 +183,7 @@ const Customers = () => {
 
         <div className="page-meta">
           {
-            filteredCustomers.length
+            (filteredCustomers || []).length
           }{" "}
           customers
         </div>
