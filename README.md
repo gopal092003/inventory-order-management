@@ -11,25 +11,25 @@ The system enables businesses to efficiently manage products, customers, orders,
 ### Frontend
 
 ```text
-https://your-app.vercel.app
+https://inventory-order-management-7z6azcvtui.vercel.app
 ```
 
 ### Backend API
 
 ```text
-https://your-backend.onrender.com
+https://inventory-backend-uotd.onrender.com
 ```
 
 ### API Documentation
 
 ```text
-https://your-backend.onrender.com/docs
+[https://your-backend.onrender.com/](https://inventory-backend-uotd.onrender.com/docs
 ```
 
 ### Docker Hub Image
 
 ```text
-https://hub.docker.com/r/your-dockerhub-username/inventory-backend
+docker.io/gopal0921/backend:latest
 ```
 
 ---
@@ -205,7 +205,7 @@ Create and manage customer orders with automatic inventory updates and order tra
 
 ## Mobile Responsive View
 
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](screenshots/mobile-view.jpeg)
 
 Fully responsive user interface optimized for mobile and tablet devices.
 
@@ -216,7 +216,7 @@ Fully responsive user interface optimized for mobile and tablet devices.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/inventory-order-management.git
+git clone https://github.com/gopal092003/inventory-order-management.git
 
 cd inventory-order-management
 ```
@@ -435,34 +435,6 @@ alembic downgrade -1
 
 ---
 
-# Submission Links
-
-## GitHub Repository
-
-```text
-https://github.com/your-username/inventory-order-management
-```
-
-## Backend Docker Hub Image
-
-```text
-https://hub.docker.com/r/your-dockerhub-username/inventory-backend
-```
-
-## Frontend Hosted URL
-
-```text
-https://your-app.vercel.app
-```
-
-## Backend API URL
-
-```text
-https://your-backend.onrender.com
-```
-
----
-
 # Author
 
 Your Name
@@ -470,13 +442,13 @@ Your Name
 GitHub:
 
 ```text
-https://github.com/your-username
+https://github.com/gopal092003
 ```
 
 LinkedIn:
 
 ```text
-https://linkedin.com/in/your-profile
+https://www.linkedin.com/in/gopal-gupta-0ab404281/
 ```
 
 ---
