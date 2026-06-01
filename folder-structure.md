@@ -162,7 +162,6 @@ inventory-order-management/
 │       │
 │       ├── assets/
 │       │   ├── logo.svg
-│       │   ├── empty-state.svg
 │       │   └── dashboard-banner.svg
 │       │
 │       └── styles/
