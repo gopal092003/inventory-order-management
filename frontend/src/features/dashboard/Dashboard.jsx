@@ -5,6 +5,8 @@ import RecentOrders from "./RecentOrders";
 import Loader from "../../components/ui/Loader";
 import EmptyState from "../../components/ui/EmptyState";
 
+import dashboardBanner from "../../assets/dashboard-banner.svg";
+
 import useFetch from "../../hooks/useFetch";
 
 import {
