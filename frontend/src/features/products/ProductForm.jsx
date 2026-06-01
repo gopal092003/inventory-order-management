@@ -103,7 +103,7 @@ const ProductForm = ({
     >
       <div className="product-form-grid">
         <Input
-          label="Product Name"
+          label="Product Name Test"
           placeholder="Mechanical Keyboard"
           required
           error={
