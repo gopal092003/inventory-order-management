@@ -7,7 +7,7 @@ export const useFetch = (
 ) => {
   const {
     immediate = true,
-    initialData = null,
+    initialData = [],
   } = options;
 
   const [data, setData] =
