@@ -62,49 +62,50 @@ const StatsCards = ({
           src={dashboardBanner}
           alt="Inventory Dashboard"
         />
-    </div>
+      </div>
 
-    <StatsCards
-      stats={dashboard.stats}
-    />
-    <div className="stats-grid">
-      {cards.map(
-        (card) => {
-          const Icon =
-            card.icon;
+      <StatsCards
+        stats={dashboard.stats}
+      />
+      
+      <div className="stats-grid">
+        {cards.map(
+          (card) => {
+            const Icon =
+              card.icon;
 
-          return (
-            <div
-              key={
-                card.title
-              }
-              className={`stats-card ${card.className}`}
-            >
-              <div className="stats-card-header">
-                <span className="stats-card-title">
-                  {
-                    card.title
-                  }
-                </span>
-
-                <div className="stats-card-icon">
-                  <Icon
-                    size={
-                      20
-                    }
-                  />
-                </div>
-              </div>
-
-              <h2 className="stats-card-value">
-                {
-                  card.value
+            return (
+              <div
+                key={
+                  card.title
                 }
-              </h2>
-            </div>
-          );
-        }
-      )}
+                className={`stats-card ${card.className}`}
+              >
+                <div className="stats-card-header">
+                  <span className="stats-card-title">
+                    {
+                      card.title
+                    }
+                  </span>
+
+                  <div className="stats-card-icon">
+                    <Icon
+                      size={
+                        20
+                      }
+                    />
+                  </div>
+                </div>
+
+                <h2 className="stats-card-value">
+                  {
+                    card.value
+                  }
+                </h2>
+              </div>
+            );
+          }
+        )}
     </div>
   );
 };
