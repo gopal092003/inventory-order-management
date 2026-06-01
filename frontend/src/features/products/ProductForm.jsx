@@ -101,7 +101,7 @@ const ProductForm = ({
         onSubmit
       )}
     >
-      <div className="form-grid">
+      <div className="product-form-grid">
         <Input
           label="Product Name"
           placeholder="Mechanical Keyboard"
