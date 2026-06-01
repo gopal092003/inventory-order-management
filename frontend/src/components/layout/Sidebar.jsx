@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
+import logo from "../../assets/logo.svg";
 import {
   LayoutDashboard,
   Package,
@@ -62,9 +63,11 @@ const Sidebar = ({
       >
         <div className="sidebar-header">
           <div className="sidebar-brand">
-            <div className="sidebar-logo">
-              IMS
-            </div>
+            <img
+              src={logo}
+              alt="Inventory Management"
+              className="sidebar-logo"
+            />
 
             <div>
               <h2>
