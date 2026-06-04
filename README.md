@@ -11,7 +11,7 @@ The system enables businesses to efficiently manage products, customers, orders,
 ### Frontend
 
 ```text
-https://inventory-order-management-7z6azcvtui.vercel.app
+https://inventory-order-management-smoky.vercel.app/
 ```
 
 ### Backend API
